@@ -1,0 +1,9 @@
+csv/
+
+# docker volumes
+ny_taxi_postgres_data/
+pgadmin_volume/
+
+# docker images miscs
+ingest_data/output.*
+ingest_data/.env

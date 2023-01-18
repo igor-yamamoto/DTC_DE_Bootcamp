@@ -1,0 +1,4 @@
+.infracost/
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate

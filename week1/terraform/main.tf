@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 1.0"
   backend "local" {}
-  required_version {
+  required_providers {
     google = {
         source = "hashicorp/google"
     }
@@ -39,5 +39,5 @@ resource "google_storage_bucket" "data-lake-bucket" {
 resource "google_bigquery_dataset" "dataset" {
     dataset_id = var.BG_DATASET
     project = var.project
-    region = var.region
+    location = var.region
 }
