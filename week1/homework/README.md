@@ -185,7 +185,7 @@ Note: it's not a typo, it's `tip` , not `trip`
 
 ## Answer
 
-To find the trip with a pick up from Astoria zone that hd the biggst tip:
+To find the trip with a pick up from Astoria zone that had the biggest tip:
 
 > note: some fields were written with parenthesis due to capital letters in the name of the columns
 
@@ -230,7 +230,7 @@ Paste the output of this command into the homework submission form.
 
 ## Answer
 
-In order to run the `terraform apply` command, it was necessary to properly install Terraform on the VM instance, as well as transfering the files from local to cloud (both the `.tf` files, as well as the service account credentials).
+In order to run the `terraform apply` command, it was necessary to properly install Terraform on the VM instance, as well as transferring the files from local to cloud (both the `.tf` files, as well as the service account credentials).
 
 After properly installing the dependencies and authenticating to gcloud, it was possible to run the `init`, `plan` and then finally the `terraform apply` command, which yielded as response:
 
